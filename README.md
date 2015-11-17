@@ -136,7 +136,13 @@ enable_service n-cauth
  - Sau khi cài devstack với file local trên xong, devstack sẽ tạo ra dải mạng external và bắt đầu từ 192.168.1.150 tới 192.168.1.200
  - Thời gian cài đặt devstack có thể nhanh hay chậm tùy thuộc vào tốc độ internet. 
  - Có thể sử dụng các kỹ thuật repos, apt-cache để tăng tốc độ download các package khi cài devstack.
- 
+
+##### Bước 5: thực thi script
+- Đảm bảo lúc này bạn đang ở thư mục /home/stack/devstack/ nhé và thực thi shell sau.
+```sh
+./stack.sh
+```
+
 ##### Các chú ý khi khởi động lại devstack
 - Fix lỗi Cinder
 ```sh
