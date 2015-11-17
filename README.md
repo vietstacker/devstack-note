@@ -39,7 +39,9 @@ apt-get update -y && apt-get upgrade -y && apt-get dist-upgrade -y && init 6
 ```sh
 adduser stack
 apt-get -y install sudo 
+apt-get -y install git
 echo "stack ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+
 ```
 
 - Chuyển từ tài khoản `root` sang tài khoản `stack` :
