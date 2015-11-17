@@ -22,7 +22,7 @@
 Cấu hình tối thiểu
  - RAM 4GB
  - HDD:60GB
- - NIC: 01: 192.168.1.1
+ - NIC: 01: 192.168.1.0/24
 
 Phiên bản hệ điều hành: Ubuntu Server 14.04 64 bit
  
