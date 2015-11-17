@@ -138,5 +138,13 @@ enable_service n-cauth
  - Có thể sử dụng các kỹ thuật repos, apt-cache để tăng tốc độ download các package khi cài devstack.
  
 ##### Các chú ý khi khởi động lại devstack
+- Fix lỗi Cinder
+```sh
+- Gõ lệnh dưới trước khi chạy .rejoin-stack
+
+sudo losetup /dev/loop0 /opt/stack/data/stack-volumes-default-backing-file
+sudo losetup /dev/loop1 /opt/stack/data/stack-volumes-lvmdriver-1-backing-file
+
+```
 - Sau khi khơi động lại devstack cần thực hiện lệnh sau: `./home/stack/rejoin-devstack.sh`
 
