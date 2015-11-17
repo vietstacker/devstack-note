@@ -154,5 +154,5 @@ sudo losetup /dev/loop0 /opt/stack/data/stack-volumes-default-backing-file
 sudo losetup /dev/loop1 /opt/stack/data/stack-volumes-lvmdriver-1-backing-file
 
 ```
-- Sau khi khơi động lại devstack cần thực hiện lệnh sau: `./home/stack/rejoin-devstack.sh`
+- Sau khi khơi động lại devstack cần thực hiện lệnh sau: `./home/stack/rejoin-stack.sh`
 
